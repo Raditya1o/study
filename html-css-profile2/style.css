@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Urbanist", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-card {
+  display: flex;
+  max-width: 1000px;
+  max-height: 500px;
+  width: 500px;
+  height: 200px;
+  padding: 25px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 35px;
+  box-shadow: 2px, 3px rgb(0, 0, 0);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(197, 197, 197);
+}
+
+.text-data {
+  padding: 12px;
+  font-weight: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.text-data .name {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.text-data .job {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.text-data p {
+  font-family: "Raleway", sans-serif;
+  margin-top: 6px;
+}
+
+.media {
+  display: flex;
+  padding: 12px;
+  position: absolute;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.media .link {
+  padding: 5px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  width: inherit;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.link:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s all 0s;
+}
